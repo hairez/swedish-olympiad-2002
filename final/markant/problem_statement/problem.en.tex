@@ -1,0 +1,23 @@
+\problemname{A Notable Problem}
+
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{markant.png}
+\end{center}
+
+The farmer Sven owns a large fence-enclosed rectangular area of land. He has divided the land into several smaller areas by building fences so that each smaller area is completely enclosed by fences. All fences are straight and placed parallel to the outer edges. Now Sven's eldest son, Peter, is getting married, and as a wedding present he will receive one of these smaller areas. Peter naturally wants the largest area (in terms of area), but since Sven has been clever and divided his land in a complicated way, it is not entirely easy to determine which area is the largest. Help Peter solve the problem by writing a program that computes which part has the largest area.
+
+
+
+\section*{Input}
+The first line contains three integers, $b, h$ ($0 < b, h \le 40000$) and $n$ ($4 \le n \le 50$),
+where $b$ and $h$ specify the width and height of Sven's land area, and $n$ specifies the number of fences on Sven's land.
+
+Then follow $n$ lines with four integers on each line, $x_1$, $y_1$, $x_2$, $y_2$
+($0 \le x_1$, $x_2 \le b$ and $0 \le y_1, y_2 \le h$) specifying the start and end points of a fence.
+The lower-left corner of Sven's area has coordinates $(0, 0)$ and the upper-right corner has coordinates $(b, h)$.
+You may assume that the four fences enclosing Sven's entire area are included in the list of fences,
+and that no fences cross or overlap each other.
+
+\section*{Output}
+Output a single integer: the area of the largest region.

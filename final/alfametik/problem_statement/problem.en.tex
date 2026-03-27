@@ -1,0 +1,24 @@
+\problemname{Alphametic}
+
+\begin{figure}
+   \centering
+	\includegraphics{alfametik}
+\end{figure}
+
+An alphametic is a mathematical puzzle where a number of words are arranged in the form used when performing an addition ``by hand'', and where the goal is to replace the letters with digits so that the result becomes a valid arithmetic sum. The first modern alphametic, published by H E Dudeney in July 1924, is shown in the figure above and has the solution $9567 + 1085 = 10652$.
+
+There are two fairly obvious rules for an alphametic:
+
+\begin{itemize}
+
+\item There must be a 1-to-1 correspondence between the letters and the digits in the alphametic. That is, the same letter always represents the same digit, and the same digit is always represented by the same letter.
+
+\item The digit 0 may not appear at the leftmost position in the terms or the sum.
+
+\end{itemize}
+
+\section*{Input}
+The first line contains the number of terms, a number between 2 and 10. Then come the terms, one on each line, and finally the sum. None of these ``numbers'' will be longer than 8 letters. The letters will be exclusively uppercase, A to Z.
+
+\section*{Output}
+The program should present the solution to the problem by outputting the terms (in the same order as in the input) and the sum on separate lines. You may assume that there is exactly one solution.
